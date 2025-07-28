@@ -75,7 +75,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls -1 --color=always $realpath' # P
 
 # Aliases
 alias ls='ls --color' 
-alias lasl='ls -al'
+alias lsal='ls -al'
 alias ff='fastfetch'
 
 #--------------------------------------------------
