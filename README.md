@@ -1,6 +1,6 @@
 # Dotfiles
 ## Conteúdo
-Os arquivos presentes nesse repositório são configurações dos seguintos programas:
+Os arquivos presentes nesse repositório são configurações dos seguintes programas:
 
 - Z shell (zsh)
 - kitty terminal
