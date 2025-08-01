@@ -30,11 +30,11 @@ Tutoriais que segui para configurá-los e gerenciar meus dotfiles:
 
 Configuração:
 
-- [ ] Hyprland 
+- [ ] Hyprland
+- [ ] Sway
 
 Personalização:
 
 - [ ] kitty
-- [ ] Sway
 - [ ] Waybar
 - [ ] Wofi
