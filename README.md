@@ -30,6 +30,7 @@ Tutoriais que segui para configurá-los e gerenciar meus dotfiles:
 
 Configuração:
 
+- [ ] EWW
 - [ ] Hyprland
 - [ ] Sway
 
