@@ -18,7 +18,7 @@ fi
 # Plugins
     zinit light zsh-users/zsh-syntax-highlighting # Syntax
     zinit light zsh-users/zsh-completions # Completions
-    zinit light zsh-user/zsh-autosuggestions # Sugestões do histórico 
+    zinit light zsh-users/zsh-autosuggestions # Sugestões do histórico 
     zinit light Aloxaf/fzf-tab
 
 #--------------------------------------------------
@@ -39,7 +39,7 @@ fi
 #--------------------------------------------------
 
 # Tema do Oh-My-Posh
-    eval "$(oh-my-posh init zsh --config 'night-owl')"
+    eval "$(oh-my-posh init zsh --config '~/Temas-OMPosh/powerlevel10k_rainbow.omp.json')"
 
 #--------------------------------------------------
 
@@ -69,17 +69,23 @@ fi
     zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'  # case-insensitive
     zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} # set list-colors to enable filename colorizing
     zstyle ':completion:*' menu no
-    zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls -1 --color=always $realpath' # Preview do diretório com ls
+    zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --total-size --git -lha --color=always $realpath' # Preview do diretório com ls
 
 #--------------------------------------------------
 
 # Aliases
     alias ls='ls --color' 
-    alias lsla='ls -la'
+    alias lsla='eza --git -lha' # Ou 'ls -la'
     alias ff='fastfetch'
     alias ram='free -ghwts 0.5q'
+    alias code='com.visualstudio.code'
 
 #--------------------------------------------------
 
 # Shell integrations
     eval "$(fzf --zsh)"
+
+
+# Export
+    # Para trocar o editor de markdown do programa Glow 
+    export EDITOR="vim"

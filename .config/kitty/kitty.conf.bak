@@ -17,15 +17,15 @@ kitty_mod ctrl+shift
 # ┣ Tema Atual: ayu mirage
 include Temas/ayu_mirage.conf
 # ┣ Transparência
-background_opacity 0.80
+#background_opacity 0.80
 # ┣ Layout 
 enabled_layouts tall,*
 # ┣ Gaps
 window_margin_width 7
 window_border_width 2
 # ┣ Wallpaper (Background)
-#background_image ~/Pictures/Wallpaper/minimo/od_qr.png
-#background_image_layout cscaled
+background_image ~/Pictures/Wallpaper/minimo/od_qr.png
+background_image_layout cscaled
 # ┃     ┗ Background Image layout
 # ┃         ┣ tiled
 # ┃         ┣ mirror-tiled
@@ -70,7 +70,7 @@ font_size 12.0
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="Maple Mono"
+font_family      family="0xProto Nerd Font Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
