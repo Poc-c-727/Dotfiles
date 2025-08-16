@@ -39,7 +39,7 @@ fi
 #--------------------------------------------------
 
 # Tema do Oh-My-Posh
-    eval "$(oh-my-posh init zsh --config '~/Temas-OMPosh/powerlevel10k_rainbow.omp.json')"
+    eval "$(oh-my-posh init zsh --config '~/Temas-OMPosh/darkblood.omp.json')"
 
 #--------------------------------------------------
 
