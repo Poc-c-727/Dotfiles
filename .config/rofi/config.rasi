@@ -1,0 +1,19 @@
+/**
+ * A floating box version of the paper theme.
+ *
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+
+
+configuration {
+    display-drun: "Applications";
+    display-window: "Windows";
+    drun-display-format: "{icon} {name}";
+    modi: "window,run,drun";
+    show-icons: true;
+    icon-theme: "kora-green";
+}
+
+@theme "/home/poc-hehheh/.config/rofi/theme.rasi"
+
